@@ -1,0 +1,23 @@
+/* Header */
+.header {
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+  text-align: right;
+}
+
+.header__image {
+  width: 100%;
+}
+
+.header__link {
+  font-family: fantasy, cursive;
+}
+
+@media (max-width: 768px) {
+
+  .header {
+    text-align: center;
+  }
+
+}

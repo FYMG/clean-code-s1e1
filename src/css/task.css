@@ -1,0 +1,51 @@
+/* Task */
+.task {
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task__title,
+.task__text-input {
+  width: 56%;
+  display: inline-block;
+  flex-grow: 1;
+}
+
+.task > * {
+  vertical-align: middle;
+}
+
+.task__checkbox {
+  margin: 0 10px;
+}
+
+.task__title {
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  width: 226px;
+}
+
+.task__text-input {
+  width: 226px;
+}
+
+/* Edit Task */
+.task__text-input {
+  display: none;
+}
+
+.task_edit .task__text-input {
+  display: inline-block;
+  width: 224px;
+}
+
+.task_edit .task__title {
+  display: none;
+}
+
