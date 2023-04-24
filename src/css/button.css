@@ -1,0 +1,25 @@
+/* Button Style */
+.button {
+  outline: none;
+  background: none;
+  border: 0;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #3a3A3a;
+}
+
+.delete-button__image {
+  height: 2em;
+  transform: rotateZ(45deg);
+  transition: transform 200ms ease-in;
+}
+
+.delete-button__image:hover {
+  transform: rotateZ(0);
+}
