@@ -1,8 +1,14 @@
-@import "src/css/general.css";
 @import "src/css/header.css";
 @import "src/css/task.css";
 @import "src/css/button.css";
 @import "src/css/input.css";
+
+/* Body */
+.body {
+  background-color: #f8f8f8;
+  color: #333;
+  font-family: Lato, sans-serif;
+}
 
 /* Main */
 .main {
@@ -13,6 +19,7 @@
 
 /* Title */
 .title {
+  list-style: none;
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -40,6 +47,13 @@
 
 .new-item__task {
   width: 318px;
+}
+
+/* Task lists */
+.todo__list,
+.completed-task__list {
+  margin: 0;
+  padding: 0;
 }
 
 /* Completed */
